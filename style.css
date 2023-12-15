@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@100&display=swap');
+
+body{
+    background-color: #000000;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.hero-section{
+    height: 80vh;
+    background-image: url(./images/hero-image.jpg);
+    position: relative;
+}
+
+.hero-section .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+}
+
+.navbar svg{
+    height: 40px;
+    width: 148px;
+    fill: rgb(229,9,20);
+    z-index: 1;
+}
+
+.navbar{
+    height: 92px;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav{
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+}
+
+.right-nav select{
+    font-size: 1rem;
+    background: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+}
+
+.right-nav select option{
+    color: black;
+}
+
+.right-nav button{
+    font-size: 1rem;
+    background-color: rgb(229,9,20);
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+
+.hero-text{
+    width: 80vw;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.hero-text *{
+    z-index: 2;
+}
+
+.hero-text h1{
+    font-size: 3em;
+}
+
+.hero-text h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.hero-text h3{
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+.inner-hero input{
+    font-size: 1.6em;
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    padding: 7px;
+}
+
+.inner-hero button{
+    font-size: 1.6rem;
+    background-color: rgb(229,9,20);
+    padding: 7px;
+    border-radius: 7px;
+    color: white;
+}
