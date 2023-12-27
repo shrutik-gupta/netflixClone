@@ -184,7 +184,7 @@ body{
 }
 
 .footer{
-    max-width: 60vw;
+    max-width: 70vw;
     margin: auto;
     padding: 20px;
     color: rgb(161, 161, 161);
@@ -209,5 +209,29 @@ li{
 @media (max-width: 768px) {     /*Tablet screen */
     .section{
         flex-direction: column;
+    }
+}
+
+@media(max-width: 599px) {
+    .inner-hero{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .inner-hero button{
+        max-width: 40vw;
+    }
+}
+
+@media(max-width: 441px){
+    .navbar{
+        flex-direction: column;
+        padding: 10px;
+        align-items: start;
+    }
+
+    .navbar img{
+        height: 30px;
     }
 }
