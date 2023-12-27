@@ -85,17 +85,17 @@ body{
 }
 
 /*.hero-text*/ h1{
-    font-size: 4vw;
+    font-size: 48px;
     font-weight: bolder;
 }
 
 /*.hero-text*/ h2{
-    font-size: 3vw;
+    font-size: 24px;
     font-weight: lighter;
 }
 
 /*.hero-text*/ h3{
-    font-size: 2vw;
+    font-size: 20px;
     font-weight: lighter;
 }
 
@@ -233,5 +233,17 @@ li{
 
     .navbar img{
         height: 30px;
+    }
+}
+
+@media (max-width: 793px){
+    h1{
+        font-size: 5vw;
+    }
+    h2{
+        font-size: 4vw;
+    }
+    h3{
+        font-size: 3vw;
     }
 }
