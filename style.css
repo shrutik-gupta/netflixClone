@@ -150,11 +150,11 @@ body{
 .section-image img{
     position: relative;
     z-index: 2;
-    width: 35vw;
+    width: 400px;
 }
 
 .section-image video{
-    width: 30vw;
+    width: 380px;
     top: 50px;
     right: 0;
     position: absolute;
@@ -184,7 +184,7 @@ body{
 }
 
 .footer{
-    max-width: 50vw;
+    max-width: 60vw;
     margin: auto;
     padding: 20px;
     color: rgb(161, 161, 161);
@@ -200,4 +200,14 @@ body{
 
 li{
     list-style: none;
+}
+
+.footer-select{
+    margin-left: 20vw;
+}
+
+@media (max-width: 768px) {     /*Tablet screen */
+    .section{
+        flex-direction: column;
+    }
 }
